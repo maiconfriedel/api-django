@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import ItemListView, ItemRetrieveUpdateDestroyView, ItemListCreateView
+from .views import ItemRetrieveUpdateDestroyView, ItemListCreateView
 
 urlpatterns = [
     path('items/', ItemListCreateView.as_view(), name='item-list-create'),
