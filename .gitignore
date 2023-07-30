@@ -1,0 +1,90 @@
+# Bibliotecas instaladas pelo PIP
+Lib
+
+# Arquivos e diretórios gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+
+# Arquivos e diretórios gerados pelo Django
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+*.log
+*.pot
+*.po
+*.mo
+db.sqlite3
+media/
+static/
+
+# Arquivos de configuração
+*.env
+*.env.*
+*.ini
+*.conf
+*.yaml
+*.yml
+*.cfg
+
+# Ambientes virtuais
+venv/
+env/
+envs/
+virtualenv/
+.pyvenv/
+.venv/
+pip-selfcheck.json
+
+# Arquivos de secret_key
+secret_key.txt
+
+# Arquivos gerados por IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+
+# Arquivos de cache
+*.cache
+
+# Outros arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.~
+*.orig
+*~
+
+# Arquivos de registro (logs)
+*.log
+
+# Arquivos de saída e build
+build/
+dist/
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+*.spec
+*.egg
+*.egg-info
+
+# Arquivos de cache para dependências
+__pycache__/
+env/
+envs/
+__pycache__/
